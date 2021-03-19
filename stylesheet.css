@@ -1,0 +1,63 @@
+header{
+    height:80px;
+    width:100%;
+    background-color:rgba(13, 202, 171, 0.8);
+    position:fixed;
+    top:0;
+    z-index:0;
+    color:white;
+    font-family:serif;
+
+}
+
+header a {
+    float:right;
+    padding: 24px 15px;
+    color:white;
+    font-size:20px;
+}
+header h1{
+    float:left;
+    font-size:30px;
+}
+
+
+
+
+.main img{
+    height:600px;
+    margin:auto;
+    padding-top:80px;
+}
+.contents{
+    text-align:center;
+}
+.contents h2{
+    color:red;
+}
+.age,.career,.talent,.hobby,.actor{
+    margin:5px 0;
+    font-size:20px;
+}
+.SNS{
+    text-align:center;
+}
+.facebook{
+    background-color:#3b5998;
+}
+.twitter{
+    background-color:#55acee;
+}
+.btn{
+    padding:8px 24px;
+    color:white;
+    display: inline-block;
+    border-radius:4px;
+    opacity:0.8;
+}
+.btn hover{
+    opacity: 1;
+}
+.fa{
+    margin-right:5px;
+}
